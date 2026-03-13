@@ -20,6 +20,9 @@ int main(){
     notas10 = saque/10;
     saque = saque % 10;
 
+    notas5 = saque/5;
+    saque = saque % 5;
+
     notas1 = saque;
 
     if(notas100 > 0)
